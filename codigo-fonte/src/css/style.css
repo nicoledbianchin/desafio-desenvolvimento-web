@@ -111,64 +111,6 @@ footer h3{
     text-align: justify;
 }
 
-#calculator-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f8edeb;
-}
-
-#calculator-source{
-    font-size: small;
-    padding-top: 20px;
-}
-
-#calculator-text{
-    width: 50%;
-}
-
-#calculator-title{
-    padding-bottom: 20px;
-}
-
-.calculator {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f8edeb;
-    border-radius: 5px;
-    text-align: center;
-}
-
-label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-input, select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
-
-#calculate {
-    background-color: #B5838D;
-    color: #fff;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-#result {
-    margin-top: 20px;
-    font-weight: bold;
-    width: 100%;
-}
-  
-
 .contact a{
     font-size: 16px;
     margin: 10px;
