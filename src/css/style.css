@@ -177,4 +177,12 @@ margin: 0;
 .dropdown.open .dropdown-content {
 display: block;
 }
-  
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    color: #f8fafc;
+    background-color: #FCD5CE;
+    border-radius: 8px;
+
+}
