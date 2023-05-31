@@ -1,0 +1,85 @@
+/* DEPOIMENTOS */
+
+.depoimentos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.depoimento-nome{
+    font-weight: bold;
+}
+
+.container-depoimentos{
+    width: 50%;
+    margin: 0 auto;
+    text-indent: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-depoimentos input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.container-depoimentos form textarea{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.depoimento{
+    border: 1px solid #000;
+    width: 400px;
+    padding: 20px;
+    text-indent: 0;
+}
+
+.depoimento .depoimento-title{
+    font-weight: bold;
+}
+
+.input-enviar{
+    text-align: center;
+}
+
+#btn-enviar{
+    background-color: #B5838D;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 50%;
+}
+
+/* TABELA SERVIÇOS VETERINÁRIOS */
+
+.iconesRedesSociais{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
+thead{    
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+tr{
+    text-align: left;    
+}
+
+td{
+    padding-left: 10px;
+}
+.nomeEstabelecimentoTabela{
+    font-weight: bolder;
+    font-size: 15px;
+}

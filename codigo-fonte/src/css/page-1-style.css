@@ -1,0 +1,53 @@
+/* DROPDOWN DE CONTEÚDO */
+
+.dropdown {
+    position: relative;
+    background-color: #f8edeb;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+button.botao-dropdown {
+    background: none;
+    font-weight: bold;
+    border: none;
+    padding: 0;
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.conteudo-dropdown {
+    display: none;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 20px;
+    letter-spacing: 5;
+    padding: 50px;
+    letter-spacing: 5;
+    line-height: 30px;
+    background-color: #f8edeb;
+    text-indent: 40px;
+    text-align: justify;
+}
+
+.dropdown.open .conteudo-dropdown {
+    display: block;
+}
+
+.conteudo-dropdown p {
+    margin: 0;
+}
+
+.dropdown.open .conteudo-dropdown {
+    display: block;
+}
