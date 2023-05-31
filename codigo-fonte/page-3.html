@@ -4,99 +4,160 @@
 <head>
     <meta charset="UTF-8">
     <title>Bem estar cat</title>
-    <link rel="icon" href="./src/img/logo.png" type="image/x-icon">
+    <link rel="icon" href="./src/img/favicon-animated-cat.ico" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="src/css/page-3-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div id="site-id">
-            <img id="logo" src="./src/img/logo-v2.png" alt="Logotipo do site">
-            <h1 id="site-name">Bem estar cat</h1>
+            <a href="index.html"><img id="logo" src="./src/img/logo-v2.png" alt="Logotipo do site"></a>
+            <a href="index.html">
+                <h1 id="site-name">Bem estar cat</h1>
+            </a>
         </div>
-        <div id="links">
-            <h2><a href="index.html">Home</a></h2>
-            <h2><a href="page-1.html">Informações FIV/FELV</a></h2>
-            <h2><a href="page-2.html">Cuidados necessários</a></h2>
-            <h2><a href="page-3.html">Comunidade</a></h2>
-        </div>
+        <ul id="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page-1.html">Informações FIV/FELV</a></li>
+            <li><a href="page-2.html">Cuidados necessários</a></li>
+            <li><a href="page-3.html">Comunidade</a></li>
+        </ul>
     </header>
 
-    <div class="subtitle">
+    <div class="subtitulo">
         <h2>Comunidade</h2>
     </div>
-    
+
 
     <div id="banner" class="banner-page-3">
 
     </div>
 
-    <div class="subtitle">
+    <div class="subtitulo">
         <h2>Serviços veterinários</h2>
     </div>
     <div class="paragrafo">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae modi facilis perspiciatis magnam id, error
-            temporibus corporis illum consequuntur iure minus. Nulla consequatur veritatis id accusantium maiores non
-            natus
-            cupiditate delectus totam optio! Harum consequatur nesciunt inventore similique voluptates laudantium itaque
-            dolorum aspernatur nostrum doloremque dolore cupiditate consectetur iusto eligendi tenetur nisi corporis
-            aliquam,
-            porro ad fugit a modi! Enim accusamus fugiat eaque sapiente maiores temporibus repudiandae officiis, harum
-            accusantium, dolore optio quaerat eum rerum culpa fugit nihil modi natus odit pariatur aspernatur et saepe
+        <p>Confira abaixo locais indicados para tratar adequadamente seu felino:
+            <br/>
+            <br/>
+            <table border ="2">
+                <thead>
+                <tr>
+                    <td>Nome do Estabelecimento</td>    
+                    <td>Endereço</td>  
+                    <td>Contatos</td>
+                    <td>Site</td>
+                    <td>Redes Sociais</td>        
+                </tr>
+                </thead>
+                <tr>
+                    <td class="nomeEstabelecimentoTabela">CatsIndoor</td>    
+                    <td> R. Borges do Canto, 85 - Petrópolis, Porto Alegre/RS</td>  
+                    <td>(51) 3279-2779 </td>   
+                    <td> www.catsindoorclinica.com.br </td>  
+                    <td>
+                        <a href="//www.facebook.com/catsindoor/"> <img class="iconesRedesSociais" src="./src/img/facebook.svg" alt="facebook"> </a>
+                        <a href="//www.instagram.com/catsindoor/"> <img class="iconesRedesSociais" src="./src/img/instagram.svg" alt="Instagram"> </a>
+                        <a href="//www.google.com"> <img class="iconesRedesSociais" src="./src/img/whatsapp.svg" alt="Whatsapp"> </a>  
+                    </td>
+                </tr>
+                <tr>
+                    <td class="nomeEstabelecimentoTabela">PetSupport</td>    
+                    <td> Avenida Plínio Brasil Milano, 1135 Higienópolis, Porto Alegre/RS</td>  
+                    <td>(51) 3023-7111</td>    
+                    <td> www.petsupport.com.br/catsupport </td> 
+                    <td>
+                        <a href="//www.facebook.com/hospitalpetsupport"> <img class="iconesRedesSociais" src="./src/img/facebook.svg" alt="facebook"> </a>
+                        <a href="//www.instagram.com/hospitalpetsupport/"> <img class="iconesRedesSociais" src="./src/img/instagram.svg" alt="Instagram"> </a>
+                        <a href="//www.google.com"> <img class="iconesRedesSociais" src="./src/img/whatsapp.svg" alt="Whatsapp"> </a> 
+                    </td> 
+                </tr>
+                <tr>
+                    <td class="nomeEstabelecimentoTabela">Clínica Veterinária do Forte</td>    
+                    <td> Av. do Forte, 1474 - Vila Ipiranga, Porto Alegre/RS</td>  
+                    <td>(51) 3519-2785 </td> 
+                    <td> Local não possui site </td>   
+                    <td>
+                        <a href="//www.facebook.com/veterinariadoforte/"> <img class="iconesRedesSociais" src="./src/img/facebook.svg" alt="facebook"> </a>
+                        <a href="//www.instagram.com/clinicadoforte/"> <img class="iconesRedesSociais" src="./src/img/instagram.svg" alt="Instagram"> </a>
+                        <a href="//www.google.com"> <img class="iconesRedesSociais" src="./src/img/whatsapp.svg" alt="Whatsapp">  </a>  
+                    </td>  
+                </tr>
+                <tr>
+                    <td class="nomeEstabelecimentoTabela">Bichomania</td>    
+                    <td> Rua Dom Pedro II, 1241, Higienópolis - Porto Alegre/RS</td>  
+                    <td>(51) 3028-0430</td> 
+                    <td> www.bichomaniapoa.com.br </td> 
+                    <td>
+                        <a href="//www.facebook.com/BichomaniaClinica"> <img class="iconesRedesSociais" src="./src/img/facebook.svg" alt="facebook"> </a>
+                        <a href="//www.instagram.com/bichomaniapoa/"> <img class="iconesRedesSociais" src="./src/img/instagram.svg" alt="Instagram"> </a>
+                        <a href="//www.google.com"> <img class="iconesRedesSociais" src="./src/img/whatsapp.svg" alt="Whatsapp"> </a>    
+                    </td>    
+                </tr>
+
+
+
+
+
+            </table>
+
+
         </p>
     </div>
 
-    <div class="subtitle">
+    <div class="subtitulo">
         <h2>Depoimentos</h2>
     </div>
 
-    <div class="paragrafo">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae modi facilis perspiciatis magnam id, error
-            temporibus corporis illum consequuntur iure minus. Nulla consequatur veritatis id accusantium maiores non
-            natus
-            cupiditate delectus totam optio! Harum consequatur nesciunt inventore similique voluptates laudantium itaque
-            dolorum aspernatur nostrum doloremque dolore cupiditate consectetur iusto eligendi tenetur nisi corporis
-            aliquam,
-            porro ad fugit a modi! Enim accusamus fugiat eaque sapiente maiores temporibus repudiandae officiis, harum
-            accusantium, dolore optio quaerat eum rerum culpa fugit nihil modi natus odit pariatur aspernatur et saepe
-        </p>
+    <div class="paragrafo depoimentos">
+        <div class="depoimento">
+            <p class="depoimento-nome">Laura Silva</p>
+            <p class="depoimento-texto">Meu nome é Laura e sou tutora de um adorável gatinho chamado Oliver, diagnosticado com FIV e FELV. Apesar dessas condições, Oliver é um guerreiro e traz imensa alegria para nossas vidas. Com cuidados especiais e muito amor, ele vive uma vida plena e feliz, nos ensinando a valorizar cada momento e encontrar beleza na simplicidade. Oliver é uma inspiração, e juntos enfrentamos os desafios, buscando sempre seu bem-estar e compartilhando um amor incondicional.</p>
+        </div>
     </div>
 
-    <div class="subtitle">
+    <div class="subtitulo">
         <h2>Mande o seu depoimento</h2>
     </div>
 
     <div class="paragrafo">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae modi facilis perspiciatis magnam id, error
-            temporibus corporis illum consequuntur iure minus. Nulla consequatur veritatis id accusantium maiores non
-            natus
-            cupiditate delectus totam optio! Harum consequatur nesciunt inventore similique voluptates laudantium itaque
-            dolorum aspernatur nostrum doloremque dolore cupiditate consectetur iusto eligendi tenetur nisi corporis
-            aliquam,
-            porro ad fugit a modi! Enim accusamus fugiat eaque sapiente maiores temporibus repudiandae officiis, harum
-            accusantium, dolore optio quaerat eum rerum culpa fugit nihil modi natus odit pariatur aspernatur et saepe
-        </p>
+        <div class="container-depoimentos">
+            <form id="formulario-depoimentos" action="">
+                <input type="text" placeholder="Nome" id="input-name">
+                <textarea name="depoimentos" id="" cols="30" rows="10" placeholder="Digite seu depoimento"
+                    class="txtDepoimento"></textarea>
+                <div class="input-enviar">
+                    <input type="button" value="Enviar" id="btn-enviar">
+                </div>
+            </form>
+        </div>
     </div>
 
     <footer>
-        <div class="contact">
-          <h3>Fale Conosco</h3>
-          <a>bemestar@hotmail.com</a>
+        <div class="contato">
+            <h3>Fale Conosco</h3>
+            <a>bemestar@hotmail.com</a>
         </div>
-    
+
         <div class="social-media">
-          <h3>Nossos canais</h3>
-          <div>
-            <a href="" class="social-media--link"><i class="fab fa-instagram"></i></a>
-            <a href="" class="social-media--link"><i class="fab fa-twitter"></i></a>
-            <a href="" class="social-media--link"><i class="fab fa-facebook"></i></a>
-          </div>
+            <h3>Nossos canais</h3>
+            <div>
+                <a href="" class="social-media--link"><i class="fab fa-instagram"></i></a>
+                <a href="" class="social-media--link"><i class="fab fa-twitter"></i></a>
+                <a href="" class="social-media--link"><i class="fab fa-facebook"></i></a>
+            </div>
         </div>
-      </footer>
+    </footer>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
         integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="src/scripts/depoimentos.js"></script>
 </body>
 
 </html>

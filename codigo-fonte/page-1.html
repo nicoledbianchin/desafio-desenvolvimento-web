@@ -4,55 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Bem estar cat</title>
-    <link rel="icon" href="./src/img/logo.png" type="image/x-icon">
+    <link rel="icon" href="./src/img/favicon-animated-cat.ico" type="image/x-icon">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/page-1-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div id="site-id">
-            <img id="logo" src="./src/img/logo-v2.png" alt="Logotipo do site">
-            <h1 id="site-name">Bem estar cat</h1>
+            <a href="index.html"><img id="logo" src="./src/img/logo-v2.png" alt="Logotipo do site"></a>
+            <a href="index.html">
+                <h1 id="site-name">Bem estar cat</h1>
+            </a>
         </div>
-        <div id="links">
-            <h2><a href="index.html">Home</a></h2>
-            <h2><a href="page-1.html">Informações FIV/FELV</a></h2>
-            <h2><a href="page-2.html">Cuidados necessários</a></h2>
-            <h2><a href="page-3.html">Comunidade</a></h2>
-        </div>
+        <ul id="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="page-1.html">Informações FIV/FELV</a></li>
+            <li><a href="page-2.html">Cuidados necessários</a></li>
+            <li><a href="page-3.html">Comunidade</a></li>
+        </ul>
     </header>
 
-    <div class="subtitle">
+    <div class="subtitulo">
         <h2>Informações FIV/FELV</h2>
     </div>
 
     <div id="banner" class="banner-page-1">
     </div>
 
-    <div class="subtitle">
+    <div class="subtitulo">
         <h2>FIV/FELV: O que é?</h2>
     </div>
 
     <div class="paragrafo">
-        <p>Conhecidas popularmente como “AIDS” e “leucemia” felina, essas doenças virais podem assustar os tutores, mas, com alguns cuidados, é possível ajudar os gatos a terem uma boa qualidade de vida.</p>
-        <br/>
+        <p>Conhecidas popularmente como “AIDS” e “leucemia” felina, essas doenças virais podem assustar os tutores, mas,
+            com alguns cuidados, é possível ajudar os gatos a terem uma boa qualidade de vida.</p>
+        <br />
         <h3>FIV (Imunodeficiência felina ou AIDS felina)</h3>
-        <p>A FIV é a doença causada pelo vírus da imunodeficiência felina, que compromete o sistema imune do gato de forma parecida com o que o vírus HIV faz com seres humanos – daí o nome popular de AIDS felina. Esse vírus pode ser transmitido de um gato para outro durante o parto, na amamentação, em brigas, no acasalamento e pelo contato com sangue e urina.</p>
-        <br/>
+        <p>A FIV é a doença causada pelo vírus da imunodeficiência felina, que compromete o sistema imune do gato de
+            forma parecida com o que o vírus HIV faz com seres humanos – daí o nome popular de AIDS felina. Esse vírus
+            pode ser transmitido de um gato para outro durante o parto, na amamentação, em brigas, no acasalamento e
+            pelo contato com sangue e urina.</p>
+        <br />
         <h3>FeLV (Leucemia felina)</h3>
-        <p>Já a FeLV é a leucemia felina, também causada por um vírus que pode ser transmitido por meio de secreções como saliva, fezes, leite e urina de gatos infectados. No caso do animal ser positivo para FeLV, a imunidade baixa também é um problema, somada ao risco de desenvolver tumores.
+        <p>Já a FeLV é a leucemia felina, também causada por um vírus que pode ser transmitido por meio de secreções
+            como saliva, fezes, leite e urina de gatos infectados. No caso do animal ser positivo para FeLV, a imunidade
+            baixa também é um problema, somada ao risco de desenvolver tumores.
         </p>
     </div>
 
-    <div class="subtitle">
+    <div class="subtitulo">
         <h2>Sintomas e tratamento</h2>
     </div>
 
     <div class="paragrafo">
         <h3>E quais são os sintomas da infecção pelo FELV?</h3>
-        <p>A principal diferença entre a FIV e FeLV é que a primeira não tem sintomas próprios, ela atua enfraquecendo o sistema imunológico e, com isso, abre portas para que o gato seja infectado por outras doenças.</p>
+        <p>A principal diferença entre a FIV e FeLV é que a primeira não tem sintomas próprios, ela atua enfraquecendo o
+            sistema imunológico e, com isso, abre portas para que o gato seja infectado por outras doenças.</p>
         <p>Daí, vem sintomas secundários. Uma simples gripe pode ser grave para gatos FIV positivos.</p>
-        <p>Já a FeLV tem sintomas tanto próprios quanto secundários, a depender das doenças que o gato contrair ao longo da vida. A própria Leucemia felina (como é conhecida a FeLV) pode causar:</p>
+        <p>Já a FeLV tem sintomas tanto próprios quanto secundários, a depender das doenças que o gato contrair ao longo
+            da vida. A própria Leucemia felina (como é conhecida a FeLV) pode causar:</p>
         <ul class="sintomas">
             <li>Tumores (neoplasias)</li>
             <li>Anemia e desordens de circulação sanguínea</li>
@@ -63,70 +77,92 @@
             <li>E doenças nos rins, baço e fígado.</li>
         </ul>
         <h3>Como funciona o tratamento para FIV e FeLV?</h3>
-        <p>Não há tratamento certo nem cura definitiva para nenhuma das duas doenças. Os gatos infectados devem ser levados ao veterinário para consultas regulares para sabermos como está lidando com a doença, pois isso ajudará o gato a viver o máximo de tempo possível com boa saúde. É importante ressaltar que o estresse pode desempenhar um papel importante no desencadeamento da reativação do vírus em animais que estão saudáveis, mesmo com a doença.</p>
+        <p>Não há tratamento certo nem cura definitiva para nenhuma das duas doenças. Os gatos infectados devem ser
+            levados ao veterinário para consultas regulares para sabermos como está lidando com a doença, pois isso
+            ajudará o gato a viver o máximo de tempo possível com boa saúde. É importante ressaltar que o estresse pode
+            desempenhar um papel importante no desencadeamento da reativação do vírus em animais que estão saudáveis,
+            mesmo com a doença.</p>
     </div>
 
-    <div class="subtitle">
+    <div class="subtitulo">
         <h2>Saiba mais</h2>
     </div>
-    
+
     <div class="dropdown">
-        <button class="dropbtn">Como descobrir se meu gato é positivo para FIV ou FeLV?</button>
-        <div class="dropdown-content">
+        <button class="botao-dropdown">Como descobrir se meu gato é positivo para FIV ou FeLV?</button>
+        <div class="conteudo-dropdown">
             <p>
-                Descobrir se um gato é positivo para FIV (Vírus da Imunodeficiência Felina) ou FeLV (Vírus da Leucemia Felina) é uma etapa importante para garantir a saúde e o bem-estar do animal. Existem testes específicos disponíveis que podem detectar a presença desses vírus no organismo felino.
+                Descobrir se um gato é positivo para FIV (Vírus da Imunodeficiência Felina) ou FeLV (Vírus da Leucemia
+                Felina) é uma etapa importante para garantir a saúde e o bem-estar do animal. Existem testes específicos
+                disponíveis que podem detectar a presença desses vírus no organismo felino.
             </p>
             <p>
-                O primeiro passo é consultar um veterinário de confiança. O profissional realizará uma avaliação clínica completa e poderá recomendar a realização dos testes apropriados. Os testes mais comuns são os testes de sangue, nos quais são analisadas amostras de sangue do gato em busca de anticorpos ou antígenos específicos relacionados ao FIV e ao FeLV.
+                O primeiro passo é consultar um veterinário de confiança. O profissional realizará uma avaliação clínica
+                completa e poderá recomendar a realização dos testes apropriados. Os testes mais comuns são os testes de
+                sangue, nos quais são analisadas amostras de sangue do gato em busca de anticorpos ou antígenos
+                específicos relacionados ao FIV e ao FeLV.
             </p>
             <p>
-                Normalmente, os testes são rápidos e precisos, fornecendo resultados confiáveis em pouco tempo. Caso o gato seja positivo para algum desses vírus, o veterinário poderá fornecer orientações adequadas sobre os cuidados necessários, a prevenção de complicações e a manutenção da qualidade de vida do felino.
+                Normalmente, os testes são rápidos e precisos, fornecendo resultados confiáveis em pouco tempo. Caso o
+                gato seja positivo para algum desses vírus, o veterinário poderá fornecer orientações adequadas sobre os
+                cuidados necessários, a prevenção de complicações e a manutenção da qualidade de vida do felino.
             </p>
             <p>
-                É importante ressaltar que os testes devem ser realizados não apenas em gatos que apresentem sintomas aparentes, mas também em gatos saudáveis ou recém-adotados. Isso se deve ao fato de que tanto o FIV quanto o FeLV podem permanecer assintomáticos por um longo período antes de manifestarem sintomas mais graves.  
-            </p>
-        </div>
-        <br/>
-        <button class="dropbtn">Como funciona a convivência de um gato com FIV/FeLV com outros gatos?</button>
-        <div class="dropdown-content">
-            <p>
-                A convivência de gatos com FIV ou FeLV com outros gatos requer cuidados especiais. É importante entender que essas doenças são transmitidas principalmente por meio de contato direto, como mordidas, lambeduras e compartilhamento de tigelas de comida ou água.
-            </p>
-            <p>
-                Para minimizar o risco de transmissão, é recomendado que os gatos com FIV ou FeLV sejam separados de outros gatos não infectados.
-            </p>
-        </div>
-        <br/>
-        <button class="dropbtn">Gatos com FIV/FeLV apresentam riscos para humanos?</button>
-        <div class="dropdown-content">
-            <p>
-                Gatos com FIV ou FeLV não representam um risco direto para os humanos. Esses vírus são específicos dos felinos e não podem ser transmitidos aos seres humanos. No entanto, é importante lembrar que alguns cuidados devem ser tomados ao lidar com gatos portadores dessas doenças para evitar a transmissão de outros patógenos, como bactérias ou parasitas, que possam afetar tanto os gatos quanto os humanos.
-            </p>
-            <p>
-                Além disso, pessoas com sistemas imunológicos comprometidos devem ter cautela ao interagir com qualquer animal doente. É sempre recomendado consultar um veterinário para obter informações detalhadas sobre os riscos e precauções específicas ao conviver com gatos portadores de FIV ou FeLV.
+                É importante ressaltar que os testes devem ser realizados não apenas em gatos que apresentem sintomas
+                aparentes, mas também em gatos saudáveis ou recém-adotados. Isso se deve ao fato de que tanto o FIV
+                quanto o FeLV podem permanecer assintomáticos por um longo período antes de manifestarem sintomas mais
+                graves.
             </p>
         </div>
-      </div>
-      <script src="./src/scripts/script.js"></script>      
+        <br />
+        <button class="botao-dropdown">Como funciona a convivência de um gato com FIV/FeLV com outros gatos?</button>
+        <div class="conteudo-dropdown">
+            <p>
+                A convivência de gatos com FIV ou FeLV com outros gatos requer cuidados especiais. É importante entender
+                que essas doenças são transmitidas principalmente por meio de contato direto, como mordidas, lambeduras
+                e compartilhamento de tigelas de comida ou água.
+            </p>
+            <p>
+                Para minimizar o risco de transmissão, é recomendado que os gatos com FIV ou FeLV sejam separados de
+                outros gatos não infectados.
+            </p>
+        </div>
+        <br />
+        <button class="botao-dropdown">Gatos com FIV/FeLV apresentam riscos para humanos?</button>
+        <div class="conteudo-dropdown">
+            <p>
+                Gatos com FIV ou FeLV não representam um risco direto para os humanos. Esses vírus são específicos dos
+                felinos e não podem ser transmitidos aos seres humanos. No entanto, é importante lembrar que alguns
+                cuidados devem ser tomados ao lidar com gatos portadores dessas doenças para evitar a transmissão de
+                outros patógenos, como bactérias ou parasitas, que possam afetar tanto os gatos quanto os humanos.
+            </p>
+            <p>
+                Além disso, pessoas com sistemas imunológicos comprometidos devem ter cautela ao interagir com qualquer
+                animal doente. É sempre recomendado consultar um veterinário para obter informações detalhadas sobre os
+                riscos e precauções específicas ao conviver com gatos portadores de FIV ou FeLV.
+            </p>
+        </div>
+    </div>
+    <script src="./src/scripts/dropdown.js"></script>
 
     <footer>
-        <div class="contact">
-          <h3>Fale Conosco</h3>
-          <a>bemestar@hotmail.com</a>
+        <div class="contato">
+            <h3>Fale Conosco</h3>
+            <a>bemestar@hotmail.com</a>
         </div>
-    
+
         <div class="social-media">
-          <h3>Nossos canais</h3>
-          <div>
-            <a href="" class="social-media--link"><i class="fab fa-instagram"></i></a>
-            <a href="" class="social-media--link"><i class="fab fa-twitter"></i></a>
-            <a href="" class="social-media--link"><i class="fab fa-facebook"></i></a>
-          </div>
+            <h3>Nossos canais</h3>
+            <div>
+                <a href="" class="social-media--link"><i class="fab fa-instagram"></i></a>
+                <a href="" class="social-media--link"><i class="fab fa-twitter"></i></a>
+                <a href="" class="social-media--link"><i class="fab fa-facebook"></i></a>
+            </div>
         </div>
-      </footer>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
-    integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+        integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
