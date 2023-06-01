@@ -1,17 +1,3 @@
-var dropdownButtons = document.querySelectorAll(".botao-dropdown");
-
-dropdownButtons.forEach(function(button) {
-  button.addEventListener("click", function() {
-    var content = this.nextElementSibling;
-
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-});
-
 var botaoCalcular = document.getElementById("calcular");
 var resultado = document.getElementById("resultado");
 
