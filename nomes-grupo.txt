@@ -1,0 +1,7 @@
+Grupo desafio da disciplina Desenvolvimento Web
+Turma: GR96003-00121
+Componentes do grupo:
+    Bianca Kieling
+    Bruno David Thomé Hoffmann
+    Lucas Machado Paim
+    Rita Nicole Dias Bianchin
