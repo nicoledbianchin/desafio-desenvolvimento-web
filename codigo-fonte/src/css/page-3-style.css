@@ -35,7 +35,8 @@
 }
 
 .depoimento{
-    border: 1px solid #000;
+    border: 1px solid #B5838D;
+    border-radius: 10%;
     width: 400px;
     padding: 20px;
     text-indent: 0;
@@ -61,25 +62,37 @@
 
 /* TABELA SERVIÇOS VETERINÁRIOS */
 
-.iconesRedesSociais{
-    height: 50px;
-    width: 50px;
+.iconesRedesSociais {
+    height: 30px;
+    width: 30px;
     padding: 5px;
 }
-thead{    
-    background-color: black;
+
+.tabela-clinicas {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+table {
+    border-color: #B5838D;
+}
+
+thead {    
+    background-color: #B5838D;
     color: white;
     text-align: left;
 }
 
-tr{
+tr {
     text-align: left;    
 }
 
-td{
+td {
     padding-left: 10px;
 }
-.nomeEstabelecimentoTabela{
+
+.nomeEstabelecimentoTabela {
     font-weight: bolder;
     font-size: 15px;
 }
